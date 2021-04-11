@@ -51,6 +51,9 @@ export default {
 
   mounted() {
     this.getLatestProducts()
+
+    document.title = 'Home | DV Commerce'
+
   },
   methods: {
     async getLatestProducts() {
